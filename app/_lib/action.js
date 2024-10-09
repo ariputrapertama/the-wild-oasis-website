@@ -18,8 +18,6 @@ export async function updateGuest(formData) {
 
   const updateData = { nationality, countryFlag, nationalID };
 
-  console.log(session);
-
   const { data, error } = await supabase
     .from("guests")
     .update(updateData)
