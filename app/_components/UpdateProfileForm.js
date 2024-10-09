@@ -1,6 +1,6 @@
 "use client";
 
-import { updateGuest } from "../_lib/action";
+import { updateGuest } from "../_lib/actions";
 import SubmitButton from "./SubmitButton";
 
 function UpdateProfileForm({ guest, children }) {
